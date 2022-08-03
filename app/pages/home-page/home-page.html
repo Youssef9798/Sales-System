@@ -1,0 +1,12 @@
+<div class="c-dashboard">
+  <div class="c-filters__container">
+    <search-filter employees-list="homePageVm.employees"></search-filter>
+  </div>
+  <employees-list employees-list="homePageVm.employees" search-val="[homePageVm.parentVar]"></employees-list>
+
+  <div class="c-dashboard__footer" ng-if="homePageVm.currentPage !== homePageVm.totalPages">
+    <button class="c-button" ng-click="loadMore()" ng-class="{ disabled: homePageVm.loading}">
+      Load More
+    </button>
+  </div>
+</div>

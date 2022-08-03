@@ -1,0 +1,10 @@
+<form>
+  <div div class="search-filter">
+    <div class="input-field">
+      <input type="search" placeholder="Search" ng-model="search.value" ng-change="emitToParent(search.value)">
+    </div>
+    <div class="clear-btn" ng-click="restAll()">
+      <button type="reset">clear</button>
+    </div>
+  </div>
+</form>
