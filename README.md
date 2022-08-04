@@ -1,5 +1,13 @@
 # Instabug take-home task
 
+### Completed Requirements:
+- Req #1 - Sales team table filter.
+- Req #2 - Performance page date filter.
+- Req #3 - Chart Edits.
+- Req #4 - 404 Page in using ui-router.
+- (BONUS #2) Load more button.
+- (BONUS #3) Create `build` command to generate dist folder.
+
 ### Description
 You recently joined a company that uses an internal system to monitor the performance of its sales team. They are currently use [Vuejs](https://v2.vuejs.org/) and [Angularjs](https://docs.angularjs.org/guide/introduction), and they need to implement some requirements
 
